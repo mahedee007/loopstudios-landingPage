@@ -2,14 +2,16 @@
   "name": "loopstudios-landingpage",
   "version": "1.0.0",
   "description": "![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)",
-  "main": "index.js",
+  "source": "./src/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3"
   },
   "dependencies": {
